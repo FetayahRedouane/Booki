@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    /*border: solid red 1px;*/
 }
 
 :root {
@@ -13,18 +14,11 @@
     color: var(--main-color);
 }
 
-header {
-    width: 1440px;
-    height: 79px;
-}
-
 .logo {
     display: flex;
     align-items: center;
     align-self: center;
-    width: 161px;
-    height: 79px;
-    padding-left: 5px;
+    
     gap: 10px;
 }
 
@@ -37,27 +31,24 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: auto;
+    width: 100%;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    width: 344px;
-    height: 35px;
-    padding-right: 10px;
 }
 
 .boutton {
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: 35px;
     gap: 68px;
 }
 
 .boutton a:hover {
     color: #0065FC;
+    border: transparent solid 3px;
+    padding: 10px 0px;
     border-top: #0065FC solid 3px;
 }
 
@@ -71,6 +62,32 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+.info {
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.titre h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+.titre h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.recherche {
+    width: 377px;
+    height: 49px;
+    border-radius: 15px;
+    border: solid 1px black;
 }
 
 a {
