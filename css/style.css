@@ -1,7 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    /*border: solid red 1px;*/
+    border: solid red 1px;*/
 }
 
 :root {
@@ -18,7 +18,6 @@
     display: flex;
     align-items: center;
     align-self: center;
-    
     gap: 10px;
 }
 
@@ -39,17 +38,16 @@
     flex-direction: row;
 }
 
-.boutton {
+.boutton ul {
     display: flex;
     flex-direction: row;
     gap: 68px;
+    list-style-type: none;
 }
 
-.boutton a:hover {
+.boutton ul li:hover {
     color: #0065FC;
-    border: transparent solid 3px;
-    padding: 10px 0px;
-    border-top: #0065FC solid 3px;
+    border-top: #0065FC solid 1px;
 }
 
 body {
