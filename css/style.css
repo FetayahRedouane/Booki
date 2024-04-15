@@ -295,7 +295,50 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
 
+section > h2 {
+    margin: 60px 0 35px 15px;
+}
+
+.activite {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.activite-card {
+    border-radius: 0 0 20px 20px;
+}
+
+.activite-card > img {
+    width: 297.5px;
+    height: 439px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.activite-card > .card-content > .card-txt > h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    padding: 5px 0 15px 0;
+}
+
+/****** Footer ***********/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
