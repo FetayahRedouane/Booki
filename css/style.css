@@ -78,23 +78,52 @@ body {
     margin: 25px 0;
 }
 
-.titre h1 {
+.description h1 {
     font-weight: 700;
     font-size: 22px;
     line-height: 25.83px;
 }
 
-.titre h2 {
+.description h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 18.78px;
 }
+.localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 49px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px;
+    opacity: 0px;
+    background-color: #F2F2F2;
+}
 
 .recherche {
-    width: 377px;
-    height: 49px;
-    border-radius: 15px;
-    border: solid 1px black;
+    display: flex;
+    align-items: center;   
+}
+
+.recherche input {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    border: 1px solid #F2F2F2;
+}
+
+.recherche span {
+    padding: 15px 16px 15px 16px;
+    background-color:#0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.fa-location-dot {
+    color: black;
+    ;
 }
 
 a {
