@@ -156,13 +156,12 @@ body {
 }
 
 .categorie {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     gap: 30px;
 }
 
 .categorie-name {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 19.96px;
     margin: 5px;
@@ -273,9 +272,9 @@ a {
     border-radius: 20px 20px 0px 0px;
 }
 
-.container h3, p, .card-rating {
+.container > h3, .card-info, .hebergement-card_rating {
     margin: 5px auto;
-    padding: 2px;
+    padding: 2px 14px;
 }
 
 /****** Populaires ***********/
