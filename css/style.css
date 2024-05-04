@@ -450,7 +450,7 @@ footer {
     }
 
     .recherche span {
-        visibility: hidden;
+        display: none;
     }
 
     .fa-magnifying-glass {
