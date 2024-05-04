@@ -139,9 +139,13 @@ body {
 
 .filter-categorie {
     display: flex;
-    border: 1px solid #D9D9D9;
-    border-radius: 30px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
     padding: 4px 19px;
+}
+
+.filter-categorie:hover {
+    background-color: #DEEBFF;
 }
 
 .filter {
@@ -160,11 +164,8 @@ body {
 .categorie-name {
     font-size: 14px;
     font-weight: 700;
-}
-
-.button-categorie {
-    display: flex;
-    justify-content: space-between;
+    line-height: 19.96px;
+    margin: 5px;
 }
 
 .button-categorie {
@@ -175,22 +176,9 @@ body {
     border: transparent;
 }
 
-.categorie > p {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 19.96px;
-    text-align: left;
-
-}
-
 .button-categorie:hover {
     cursor: pointer;
 }
-
-.filter-categorie:hover {
-    background-color: #DEEBFF;
-}
-
 
 .detail {
     display: flex;
@@ -201,7 +189,7 @@ body {
 .detail > span {
     border: #D9D9D9 1px solid;
     border-radius: 50% 50% 50% 50%;
-    padding: 5px 10px;
+    padding: 3.2px 8px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -265,11 +253,13 @@ a {
 }
 
 .hebergement-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     gap: 30px;
     margin-top: 10px;
+}
 
+.hebergement-cards_selection {
+    flex: 1;
 }
 
 .hebergement-cards .card {
@@ -283,8 +273,9 @@ a {
     border-radius: 20px 20px 0px 0px;
 }
 
-.container h3, p {
+.container h3, p, .card-rating {
     margin: 5px auto;
+    padding: 2px;
 }
 
 /****** Populaires ***********/
@@ -347,10 +338,6 @@ section > h2 {
     display: contents;
 }
 
-.activite-title {
-    padding: 0;
-}
-
 .activite a {
     display: flex;
     flex-direction: column;
@@ -370,7 +357,6 @@ section > h2 {
     display: flex;
     justify-content: flex-start;
     margin-left: 15px;
-    padding: 5px 0 15px 0;
 }
 
 /****** Footer ***********/
@@ -458,6 +444,11 @@ footer {
         margin: 0;
     }
 
+    nav a:hover {
+        border-bottom-color: #0065fc;
+        border-top-color: transparent;
+    }
+
     .recherche span {
         visibility: hidden;
     }
@@ -473,8 +464,8 @@ footer {
     }
 
     .categorie {
-        flex-wrap: wrap;
-        width: 79%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .hebergements-and-populaires {
