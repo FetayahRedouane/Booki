@@ -468,6 +468,10 @@ footer {
         padding: 0 20px;
     }
 
+    .recherche {
+        flex-wrap: wrap;
+    }
+
     .recherche span {
         display: none;
     }
@@ -481,8 +485,8 @@ footer {
     }
 
     .categorie {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         }
     
