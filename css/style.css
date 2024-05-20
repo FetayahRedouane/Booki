@@ -18,6 +18,7 @@
 .logo {
     display: flex;
     align-items: center;
+    padding: 30px 0;
 }
 
 .tête {
@@ -38,12 +39,9 @@ nav a {
     padding: 12px 0;
 }
 
-nav:hover {
-    border-top-color: #0065fc;
-}
-
 nav a:hover {
     color: #0065fc;
+    border-top-color: #0065fc;
 }
 
 /****** Body ***********/
@@ -266,6 +264,7 @@ a {
 
 .hebergement-cards .card {
     margin: 20px auto;
+    flex: 1;
 }
 
 .hebergement-cards .card img {
@@ -491,6 +490,10 @@ footer {
         padding: 4px 10px;
     }
 
+    .card {
+        width: 100%;
+    }
+
     .hebergements {
         background-color: #FFFFFF !important;
     }
@@ -505,7 +508,7 @@ footer {
     }
 
     .populaires {
-        padding: 30px;
+        border-radius: 0 !important;
     }
 
     .populaires-cards {
