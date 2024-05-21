@@ -90,7 +90,6 @@ body {
     height: 49px;
     gap: 0px;
     border-radius: 15px 0px 0px 15px;
-    opacity: 0px;
     background-color: #F2F2F2;
 }
 
@@ -102,6 +101,8 @@ body {
 .style-button {
     background-color: transparent;
     border: none;
+    position: relative;
+    right: 6px;
 }
 
 .recherche-button {
