@@ -137,6 +137,7 @@ body {
     font-weight: 700;
     line-height: 21.13px;
     text-align: center;
+    cursor: pointer;
 }
 
 .fa-location-dot {
